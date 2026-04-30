@@ -1,4 +1,4 @@
-import * as mod from '@xstoicunicornx/payjoin'
+import * as mod from '@xstoicunicornx/payjoin/web-vite'
 
 await mod.uniffiInitAsync()
 const pdk = mod.default.payjoin
@@ -19,5 +19,3 @@ class MemSenderPersisterAsync {
 
 const withReplyKey = await initial.saveAsync(new MemSenderPersisterAsync())
 console.log(withReplyKey instanceof pdk.WithReplyKey)
-
-// RuntimeError: memory access out of bounds
