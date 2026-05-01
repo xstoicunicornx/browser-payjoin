@@ -9,11 +9,10 @@
   },
   "devDependencies": {
     "typescript": "~6.0.2",
-    "uniffi-bindgen-react-native": "^0.30.0-1",
     "vite": "^8.0.10",
     "vite-plugin-wasm": "^3.6.0"
   },
   "dependencies": {
-    "@xstoicunicornx/payjoin": "^0.0.3"
+    "@xstoicunicornx/payjoin": "^0.0.5"
   }
 }
