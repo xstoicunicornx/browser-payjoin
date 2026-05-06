@@ -1,4 +1,4 @@
-import * as payjoin from '@xstoicunicornx/payjoin/web-vite'
+import * as payjoin from 'payjoin/web-vite'
 
 await payjoin.uniffiInitAsync()
 

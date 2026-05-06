@@ -13,6 +13,6 @@
     "vite-plugin-wasm": "3.6.0"
   },
   "dependencies": {
-    "@xstoicunicornx/payjoin": "0.0.5"
+    "payjoin": "0.1.1"
   }
 }
